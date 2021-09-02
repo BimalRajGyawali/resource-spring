@@ -1,3 +1,25 @@
+## Working with resources in Spring :
+
+### Resource
+Resource is an abstract generic piece of data that can be located and read.
+Resource is represented in Spring by `org.springframework.core.io.Resource`
+interface.
+
+Implementing classes of Resource  are :
+- FileSystemResource
+- ClassPathResource
+- ServletContextResource
+- UrlResource 
+
+More information is on [Spring Resource Doc](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/core/io/Resource.html)
+
+
+The Resource is obtained through ResourceLoader. ResourceLoader is an interface 
+in Spring which is implemented by all types of application context such as
+ClassPathXMLApplicationContext, FileSystemApplicationContext, AnnotationConfigApplicationContext
+and so on. So, we can load resource using any application context.
+
+
 [From Spring Docs,](https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/ch05s04.html)
 
 ### The ResourceLoader
