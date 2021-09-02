@@ -11,7 +11,7 @@ Implementing classes of Resource  are :
 - ServletContextResource
 - UrlResource 
 
-More information is on [Spring Resource Doc](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/core/io/Resource.html)
+More information is on [Spring Resource Doc](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/core/io/Resource.html).
 
 
 The Resource is obtained through ResourceLoader. ResourceLoader is an interface 
@@ -20,9 +20,10 @@ ClassPathXMLApplicationContext, FileSystemApplicationContext, AnnotationConfigAp
 and so on. So, we can load resource using any application context.
 
 
-[From Spring Docs,](https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/ch05s04.html)
 
 ### The ResourceLoader
+[From Spring Docs,](https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/ch05s04.html)
+
 The *ResourceLoader* interface is meant to be implemented by objects that can return (i.e. load) *Resource* instances.
 
 ```JAVA
